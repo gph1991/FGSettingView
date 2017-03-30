@@ -1,0 +1,22 @@
+{
+  "name": "FGSettingView",
+  "version": "0.1.0",
+  "summary": "A short description of FGSettingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gph1991/FGSettingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gph1991": "guopenghao@haogw.com"
+  },
+  "source": {
+    "git": "https://github.com/gph1991/FGSettingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FGSettingView/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module FGSettingView {
+  umbrella header "FGSettingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

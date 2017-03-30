@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - FGSettingView (0.1.0)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - Expecta
+  - FGSettingView (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  FGSettingView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  FGSettingView: 8f1fed4bc07615960b428a7da65ca7348a02ad1d
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: d3bfaec46b64bd1c3fdf539ad34d16d51d6c23d7
+
+COCOAPODS: 1.2.1.beta.1

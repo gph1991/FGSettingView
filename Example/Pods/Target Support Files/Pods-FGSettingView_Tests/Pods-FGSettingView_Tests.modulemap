@@ -1,0 +1,6 @@
+framework module Pods_FGSettingView_Tests {
+  umbrella header "Pods-FGSettingView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
