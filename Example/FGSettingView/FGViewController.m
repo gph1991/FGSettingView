@@ -19,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    FGView *view = [[FGView alloc]initWithFrame:CGRectMake(0, 20, 30, 50)];
+    view.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:view];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "FGSettingView",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "A description of FGSettingView.",
   "description": "A description of FGSettingView.FGSettingView is just a test for me .",
   "homepage": "https://github.com/gph1991/FGSettingView",
@@ -13,16 +13,13 @@
   },
   "source": {
     "git": "https://github.com/gph1991/FGSettingView.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "FGSettingView/Classes/**/*",
   "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ],
     "MBProgressHUD": [
       "~> 1.0.0"
     ]
