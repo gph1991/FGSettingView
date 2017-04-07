@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    A description of FGSettingView.A description of FGSettingView.
+    A description of FGSettingView.FGSettingView is just a test for me .
                     DESC
 
   s.homepage         = 'https://github.com/gph1991/FGSettingView'
@@ -38,5 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MBProgressHUD', '~> 1.0.0'
 end

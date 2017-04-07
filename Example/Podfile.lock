@@ -1,9 +1,34 @@
 PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Expecta (1.0.5)
-  - FGSettingView (0.1.0)
+  - FGSettingView (0.0.1):
+    - AFNetworking (~> 2.3)
+    - MBProgressHUD (~> 1.0.0)
+  - MBProgressHUD (1.0.0)
   - Specta (1.0.6)
 
 DEPENDENCIES:
+  - AFNetworking
   - Expecta
   - FGSettingView (from `../`)
   - Specta
@@ -13,10 +38,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  FGSettingView: 8f1fed4bc07615960b428a7da65ca7348a02ad1d
+  FGSettingView: 87735c24f97d4dec66824cc77d8aa3691fd8fa10
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
-PODFILE CHECKSUM: d3bfaec46b64bd1c3fdf539ad34d16d51d6c23d7
+PODFILE CHECKSUM: e3c06ed8c072f00d1e7ead47def05f31449efce0
 
-COCOAPODS: 1.2.1.beta.1
+COCOAPODS: 1.2.0

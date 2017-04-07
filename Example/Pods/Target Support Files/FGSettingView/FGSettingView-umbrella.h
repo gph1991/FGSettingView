@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FGView.h"
 
 FOUNDATION_EXPORT double FGSettingViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char FGSettingViewVersionString[];

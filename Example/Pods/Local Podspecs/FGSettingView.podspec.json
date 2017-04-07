@@ -1,8 +1,8 @@
 {
   "name": "FGSettingView",
-  "version": "0.1.0",
-  "summary": "A short description of FGSettingView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "A description of FGSettingView.",
+  "description": "A description of FGSettingView.FGSettingView is just a test for me .",
   "homepage": "https://github.com/gph1991/FGSettingView",
   "license": {
     "type": "MIT",
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/gph1991/FGSettingView.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FGSettingView/Classes/**/*"
+  "source_files": "FGSettingView/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "MBProgressHUD": [
+      "~> 1.0.0"
+    ]
+  }
 }

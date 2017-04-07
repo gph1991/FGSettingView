@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'FGSettingView_Example' do
   pod 'FGSettingView', :path => '../'
-
+  pod 'MBProgressHUD', '~> 1.0.0'
   target 'FGSettingView_Tests' do
     inherit! :search_paths
 
