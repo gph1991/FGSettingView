@@ -6,6 +6,8 @@
 //  Copyright (c) 2017 gph1991. All rights reserved.
 //
 
+
+#import "FGView.h"
 #import "FGViewController.h"
 
 @interface FGViewController ()

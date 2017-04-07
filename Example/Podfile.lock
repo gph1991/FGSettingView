@@ -28,9 +28,9 @@ PODS:
   - Specta (1.0.6)
 
 DEPENDENCIES:
-  - AFNetworking
   - Expecta
   - FGSettingView (from `../`)
+  - MBProgressHUD (~> 1.0.0)
   - Specta
 
 EXTERNAL SOURCES:
