@@ -7,6 +7,7 @@
 //
 
 #import "FGView.h"
+#import "MBProgressHUD.h"
 
 @implementation FGView
 
